@@ -46,7 +46,7 @@ e.g. If you wanted to get the UUIDs of all the players in a guild, you would do;
 ```java
 HypixelAPI api = new HypixelAPI(API KEY);
 
-Guild guild = api.getGuildByName(GUILD NAME);
+com.github.mitchtheranga.Guild guild = api.getGuildByName(GUILD NAME);
 for(Member member : guild.getMembers()){
   System.out.println(member.getUUID());
 }
