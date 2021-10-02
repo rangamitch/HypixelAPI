@@ -1,8 +1,9 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
-group 'xyz.troggs.hypixelapi'
+group 'com.github.mitchtheranga'
 version '1.0.0'
 
 repositories {
