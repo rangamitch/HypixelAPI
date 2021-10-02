@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0072d39-93db-4a6f-b367-e429f3658425" name="Default Changelist" comment="" />
+    <list default="true" id="d0072d39-93db-4a6f-b367-e429f3658425" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/Modes/DuoBrawl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/Modes/Overall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/Modes/Solo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/UHC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Skywars/Skywars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Skywars/Skywars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Smash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Smash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/SpeedUHC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/SpeedUHC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/TNT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/TNT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Warlords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Stats.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -31,6 +48,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1yvhySFXU7DBdDZ3sm7i4PCWAJB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,12 +58,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="xyz.troggs.hypixelapi.Player.Stats.Gamemodes.UHC" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.troggs.hypixelapi.Player.Stats.Gamemodes.UHC.Modes" />
       <recent name="xyz.troggs.hypixelapi.Player.Stats.Gamemodes.Skywars.Modes" />
       <recent name="xyz.troggs.hypixelapi.Player.Stats.Gamemodes.MurderMystery.Modes" />
       <recent name="xyz.troggs.hypixelapi.Player.Stats.Gamemodes.Duels.Modes" />

@@ -8,26 +8,13 @@ import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.Blitz;
 import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.BuildBattle;
 import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.Duels.Duels;
 import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.MurderMystery.MurderMystery;
+import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.Skywars.Modes.Mega;
 import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.Skywars.Skywars;
+import xyz.troggs.hypixelapi.Player.Stats.Gamemodes.UHC.UHC;
 
 public class Stats {
 
     public JSONObject json;
-
-    private Arcade arcade = null;
-    private Bedwars bedwars = null;
-    private Blitz blitz = null;
-    private BuildBattle buildBattle = null;
-    private CopsAndCrims copsAndCrims = null;
-    private Duels duels = null;
-    private MegaWalls megaWalls = null;
-    private MurderMystery murderMystery = null;
-    private Skywars skywars = null;
-    private Smash smash = null;
-    private SpeedUHC speedUHC = null;
-    private TNT tnt = null;
-    private UHC uhc = null;
-    private Warlords warlords = null;
 
     public Stats(JSONObject json){
         this.json = json;
@@ -49,7 +36,40 @@ public class Stats {
         return new BuildBattle(json);
     }
 
+    public Duels getDuels() {
+        return new Duels(json);
+    }
+
+    public MegaWalls getMegaWalls() {
+        return new MegaWalls(json);
+    }
+
+    public MurderMystery getMurderMystery() {
+        return new MurderMystery(json);
+    }
+
+    public Skywars getSkywars() {
+        return new Skywars(json);
+    }
+
+    public Smash getSmash() {
+        return new Smash(json);
+    }
+
+    public SpeedUHC getSpeedUHC() {
+        return new SpeedUHC(json);
+    }
+
+    public UHC getUHC() {
+        return new UHC(json);
+    }
+
+    public TNT getTNT() {
+        return new TNT(json);
+    }
+
     public CopsAndCrims getCopsAndCrims() {
         return new CopsAndCrims(json);
     }
+
 }
