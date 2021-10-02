@@ -2,10 +2,10 @@ package com.github.mitchtheranga.Player.Stats.Gamemodes.UHC;
 
 import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes.DuoBrawl;
 import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes.Overall;
+import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes.Solo;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import Player.Stats.Gamemodes.UHC.Modes.Solo;
 
 public class UHC {
     private JSONObject json;

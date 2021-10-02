@@ -1,9 +1,9 @@
 package com.github.mitchtheranga.Player.Stats.Gamemodes.Skywars;
 
+import com.github.mitchtheranga.Player.Stats.Gamemodes.Skywars.Modes.*;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import Player.Stats.Gamemodes.Skywars.Modes.*;
 
 public class Skywars {
     private JSONObject json;
