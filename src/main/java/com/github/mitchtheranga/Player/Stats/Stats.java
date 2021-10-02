@@ -13,7 +13,7 @@ import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.UHC;
 
 public class Stats {
 
-    public JSONObject json;
+    private JSONObject json;
 
     public Stats(JSONObject json){
         this.json = json;
