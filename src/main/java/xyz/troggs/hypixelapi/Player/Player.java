@@ -15,14 +15,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Player {
-    private String id;
-    private String uuid;
-    private String displayName;
-    private String playerName;
-    private List<String> knownAliases;
-    private List<String> knownAliasesLower;
 
-    private Stats stats;
+    private JSONObject json;
 
     public Player(String identifier, boolean isId, String apiKey){
         JSONObject json;
@@ -33,61 +27,60 @@ public class Player {
             e.printStackTrace();
             return;
         }
-
-        this.id = json.get("_id").toString();
-        this.uuid = json.get("uuid").toString();
-        this.displayName = json.get("displayname").toString();
-        this.playerName = json.get("playername").toString();
-        try{
-            List<String> aliases = new ArrayList<>();
-            List<String> aliasesLower = new ArrayList<>();
-            for(Object o : ((JSONArray) new JSONParser().parse(json.get("knownAliases").toString())).toArray()){
-                aliases.add(o.toString());
-            }
-            for(Object o : ((JSONArray) new JSONParser().parse(json.get("knownAliasesLower").toString())).toArray()){
-                aliasesLower.add(o.toString());
-            }
-            this.knownAliases = aliases;
-            this.knownAliasesLower = aliasesLower;
-        } catch (ParseException e) {
-            e.printStackTrace();
-            return;
-        }
-
-        try{
-            this.stats = new Stats((JSONObject) new JSONParser().parse(json.get("stats").toString()));
-        } catch (ParseException e) {
-            e.printStackTrace();
-            return;
-        }
+        this.json = json;
     }
 
     public String getId() {
-        return id;
+        return json.get("_id").toString();
     }
 
     public String getUuid() {
-        return uuid;
+        return json.get("uuid").toString();
     }
 
     public Stats getStats() {
+        Stats stats;
+        try{
+            stats = new Stats((JSONObject) new JSONParser().parse(json.get("stats").toString()));
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
         return stats;
     }
 
     public String getDisplayName() {
-        return displayName;
+        return json.get("displayname").toString();
     }
 
     public String getPlayerName() {
-        return playerName;
+        return json.get("playername").toString();
     }
 
     public List<String> getKnownAliases() {
-        return knownAliases;
+        List<String> aliases = new ArrayList<>();
+        try {
+            for (Object o : ((JSONArray) new JSONParser().parse(json.get("knownAliases").toString())).toArray()) {
+                aliases.add(o.toString());
+            }
+        } catch (ParseException e) {
+        }
+        return aliases;
     }
 
     public List<String> getKnownAliasesLower() {
-        return knownAliasesLower;
+        List<String> aliases = new ArrayList<>();
+        try {
+            for (Object o : ((JSONArray) new JSONParser().parse(json.get("knownAliasesLower").toString())).toArray()) {
+                aliases.add(o.toString());
+            }
+        } catch (ParseException e) {
+        }
+        return aliases;
+    }
+
+    public String getRank(){
+        return json.get("rank") != null ? json.get("rank").toString() : json.get("monthlyPackageRank") == null ? json.get("newPackageRank") == null ? "DEFAULT" : json.get("newPackageRank").toString() : json.get("monthlyPackageRank").toString().equalsIgnoreCase("NONE") ? json.get("newPackageRank").toString() : json.get("monthlyPackageRank").toString();
     }
 
     private JSONObject jsonGetRequest(String urlQueryString) throws ParseException {

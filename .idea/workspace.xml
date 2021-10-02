@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0072d39-93db-4a6f-b367-e429f3658425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/Modes/DuoBrawl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/Modes/Overall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/Modes/Solo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC/UHC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Skywars/Skywars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Skywars/Skywars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Smash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Smash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/SpeedUHC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/SpeedUHC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/TNT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/TNT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/UHC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Gamemodes/Warlords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Stats/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/troggs/hypixelapi/Player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +50,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -104,7 +94,20 @@
       <option name="presentableId" value="Default" />
       <updated>1633138223342</updated>
     </task>
+    <task id="LOCAL-00001" summary="YEE">
+      <created>1633156522159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633156522159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="YEE" />
+    <option name="LAST_COMMIT_MESSAGE" value="YEE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
