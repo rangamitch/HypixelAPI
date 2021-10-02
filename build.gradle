@@ -1,4 +1,4 @@
-plugins {
+/*plugins {
     id 'java'
     id 'maven-publish'
 }
@@ -13,4 +13,60 @@ repositories {
 
 dependencies {
     implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'xyz.troggs.hypixelapi.HypixelAPI'
+    }
+}*/
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.github.mitchtheranga'
+
+sourceCompatibility = 1.8 // java 8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}
+
+// To specify a license in the pom:
+install {
+    repositories.mavenInstaller {
+        pom.project {
+            licenses {
+                license {
+                    name 'Mitch\'s HypixelAPI'
+                    url 'troggs.xy'
+                    distribution 'repo'
+                }
+            }
+        }
+    }
+}
+
+wrapper {
+    gradleVersion = "6.1.1"
+    distributionType = Wrapper.DistributionType.ALL
 }
