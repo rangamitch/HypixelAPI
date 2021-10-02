@@ -30,6 +30,10 @@ public class Player {
         this.json = json;
     }
 
+    public JSONObject getJson(){
+        return json;
+    }
+
     public String getId() {
         return json.get("_id").toString();
     }
