@@ -1,6 +1,6 @@
-# Mitch's HypixelAPI
+# mitchtheranga's HypixelAPI Wrapper
 
-This is a simple way to use the HypixelAPI and get certain information that Hypixel's Native dependency does not offer.
+This is a wrapper for the [Hypixel API](https://api.hypixel.net) which allows you to pull guild and player information easily.
 
 ## Installing Dependency
 
@@ -57,4 +57,15 @@ or, if you wanted to check a player's wins in bedwars, you would do;
 HypixelAPI api = new HypixelAPI(API KEY);
 api.getPlayerByIGN(IGN).getStats().getBedwars().getAllCoreModes().getWins();
 ```
-[![](https://jitpack.io/v/mitchtheranga/HypixelAPI.svg)](https://jitpack.io/#mitchtheranga/HypixelAPI)
+
+## Contributions
+
+### Committers
+
+- [mitchtheranga](https://github.com/mitchtheranga)
+
+### Testers
+- [AddmanMinecraft](https://github.com/AddmanMinecraft)
+
+## 
+### <div align="center">[![](https://jitpack.io/v/mitchtheranga/HypixelAPI.svg)](https://jitpack.io/#mitchtheranga/HypixelAPI)</div>
