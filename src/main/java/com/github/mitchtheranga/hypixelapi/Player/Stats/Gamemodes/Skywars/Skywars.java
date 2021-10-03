@@ -1,6 +1,6 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.Skywars;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Skywars;
 
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Skywars.Modes.*;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Skywars.Modes.*;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

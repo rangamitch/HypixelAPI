@@ -1,11 +1,11 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.Arcade;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Arcade;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Arcade.Games.HoleInTheWall;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Arcade.Games.MiniWalls;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Arcade.Games.OneInTheQuiver;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Arcade.Games.HoleInTheWall;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Arcade.Games.MiniWalls;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Arcade.Games.OneInTheQuiver;
 
 public class Arcade {
 

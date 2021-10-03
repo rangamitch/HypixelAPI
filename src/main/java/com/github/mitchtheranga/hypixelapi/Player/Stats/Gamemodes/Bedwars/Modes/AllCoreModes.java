@@ -1,10 +1,10 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.Bedwars.Modes;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Bedwars.Modes;
 
 import org.json.simple.JSONObject;
 
 public class AllCoreModes {
 
-    private JSONObject json;
+    private final JSONObject json;
 
     public AllCoreModes(JSONObject json) {
         this.json = json;

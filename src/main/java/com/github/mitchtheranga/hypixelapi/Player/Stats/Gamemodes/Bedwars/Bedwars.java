@@ -1,11 +1,11 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.Bedwars;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Bedwars;
 
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Bedwars.Modes.AllCoreModes;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Bedwars.Modes.AllCoreModes;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Bedwars.Modes.*;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Bedwars.Modes.Solos;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Bedwars.Modes.*;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Bedwars.Modes.Solos;
 
 public class Bedwars {
 

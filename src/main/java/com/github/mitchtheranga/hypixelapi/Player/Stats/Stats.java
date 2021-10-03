@@ -1,19 +1,17 @@
-package com.github.mitchtheranga.Player.Stats;
+package com.github.mitchtheranga.hypixelapi.Player.Stats;
 
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Duels.Duels;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Arcade.Arcade;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Bedwars.Bedwars;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Duels.Duels;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.MurderMystery.MurderMystery;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Skywars.Skywars;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.UHC.UHC;
 import org.json.simple.JSONObject;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.*;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Arcade.Arcade;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Bedwars.Bedwars;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Blitz;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.BuildBattle;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.MurderMystery.MurderMystery;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Skywars.Skywars;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.UHC;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.*;
 
 public class Stats {
 
-    private JSONObject json;
+    private final JSONObject json;
 
     public Stats(JSONObject json){
         this.json = json;

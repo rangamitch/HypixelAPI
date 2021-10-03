@@ -1,4 +1,4 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

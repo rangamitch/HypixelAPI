@@ -1,9 +1,9 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.Duels;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Duels;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.Duels.Modes.*;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Duels.Modes.*;
 
 public class Duels {
 

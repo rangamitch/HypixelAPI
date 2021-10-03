@@ -1,6 +1,6 @@
-package com.github.mitchtheranga.Player;
+package com.github.mitchtheranga.hypixelapi.Player;
 
-import com.github.mitchtheranga.Player.Stats.Stats;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Stats;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

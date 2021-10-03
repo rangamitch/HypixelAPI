@@ -1,4 +1,4 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.UHC.Modes;
 
 import org.json.simple.JSONObject;
 

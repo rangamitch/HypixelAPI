@@ -1,7 +1,7 @@
 package com.github.mitchtheranga.hypixelapi;
 
 import com.github.mitchtheranga.hypixelapi.Guild.Guild;
-import com.github.mitchtheranga.Player.Player;
+import com.github.mitchtheranga.hypixelapi.Player.Player;
 
 public class HypixelAPI {
 

@@ -1,11 +1,9 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.MurderMystery;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.MurderMystery;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.MurderMystery.Modes.Assassins;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.MurderMystery.Modes.Classic;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.MurderMystery.Modes.DoubleUp;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.MurderMystery.Modes.*;
 
 public class MurderMystery {
     private JSONObject json;

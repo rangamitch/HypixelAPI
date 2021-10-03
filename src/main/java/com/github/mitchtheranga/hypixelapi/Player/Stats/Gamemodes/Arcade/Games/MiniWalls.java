@@ -1,4 +1,4 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.Arcade.Games;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.Arcade.Games;
 
 import org.json.simple.JSONObject;
 

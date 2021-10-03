@@ -1,8 +1,8 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.UHC;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.UHC;
 
-import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes.DuoBrawl;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes.Overall;
-import com.github.mitchtheranga.Player.Stats.Gamemodes.UHC.Modes.Solo;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.UHC.Modes.DuoBrawl;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.UHC.Modes.Overall;
+import com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.UHC.Modes.Solo;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

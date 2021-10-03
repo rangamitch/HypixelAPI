@@ -1,4 +1,4 @@
-package com.github.mitchtheranga.Player.Stats.Gamemodes.MurderMystery.Modes;
+package com.github.mitchtheranga.hypixelapi.Player.Stats.Gamemodes.MurderMystery.Modes;
 
 import org.json.simple.JSONObject;
 
