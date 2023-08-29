@@ -1,4 +1,4 @@
-# mitchtheranga's HypixelAPI Wrapper
+# rangamitch's HypixelAPI Wrapper
 
 This is a wrapper for the [Hypixel API](https://api.hypixel.net) which allows you to pull guild and player information easily.
 
@@ -62,7 +62,7 @@ api.getPlayerByIGN(IGN).getStats().getBedwars().getAllCoreModes().getWins();
 
 ### Committers
 
-- [mitchtheranga](https://github.com/mitchtheranga)
+- [rangamitch](https://github.com/rangamitch)
 
 ### Testers
 - [AddmanMinecraft](https://github.com/AddmanMinecraft)
